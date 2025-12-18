@@ -1,0 +1,200 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    overflow-y: auto;    
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url(https://i.postimg.cc/HnsrPK9P/22-Deepsea-Stavanger-credit-Odfjell.jpg);
+    font-family: 'Arial', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;  
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    overflow-x: hidden; 
+    overflow-y: auto;   
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+@keyframes float {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-8px); }
+    100% { transform: translateY(0); }
+}
+
+.floating-login-box {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 600px;
+}
+.about-us-box {
+    margin-top: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    color: #fff;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 14px;
+    text-align: center;
+}
+.about-us-box h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.login-container {
+    width: 350px;
+    margin: 100px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: 16px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="file"]:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 6px rgba(52, 152, 219, 0.4);
+    outline: none;
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    
+}
+
+.btn:hover {
+    background-color: #2ecc71;
+    box-shadow: 0 0 10px #2ecc71, 0 0 40px #2ecc71, 0 0 80px #2ecc71;
+}
+
+.logout-btn, .back-btn {
+    background-color: #f44336;
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.logout-btn:hover, .back-btn:hover {
+    background-color: #d32f2f;
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.result-container {
+    margin: 30px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.result-img {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+.action-buttons {
+    margin-top: 20px ;
+    text-align: center;
+}
+.action-buttons .btn {
+    margin: 10px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+}
+.action-buttons .btn:hover {
+    background-color: #2ecc71;
+}
+
+.upload-form {
+    margin-top: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
